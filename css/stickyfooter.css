@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap {min-height: 100%;
+
+
+}
+
+#footer {position: relative;
+	margin-top: -200px; /* negative value of footer height */
+	height: 200px;
+	clear:both;
+	background:#333333;
+
+	
+	
+	
+	
+}
+
+li{list-style-type: none;
+
+}
+
+
+
+img {
+
+margin-left:30px;
+}	
+
+p {
+
+text-align:center;
+color:black;
+
+}
+#footer > #left h2, h3, #footer > #center h2, h3, #footer > #right h2, h3{
+text-align:center;
+}
+#footer > #center > p > a {
+	
+	color:white;
+	text-align:center;
+	
+	text-decoration:none;
+	
+	
+}
+
+
+	
+
+#footer > #left, #footer > #center, #footer > #right {
+display:block;
+border:none;
+background:#333333;
+margin:0px;
+padding:0px;
+
+float:left;
+
+
+
+
+color:white;
+
+height:200px;
+
+}
+@media (min-width: 310px) {
+	#footer > #left, #footer > #center, #footer > #right {
+	width:100%;
+	
+	
+	}
+	img {
+
+margin-left:10px;
+}	
+	
+	
+}
+@media (min-width: 760px) {
+	#footer > #left, #footer > #center, #footer > #right {
+	width:100%;
+
+	
+	
+	}
+	img {
+
+
+}	
+	
+}
+
+@media (min-width: 960px) {
+	#footer > #left, #footer > #center, #footer > #right {
+	width:33%;
+	
+	}
+img {
+
+margin-left:30px;
+}	
+}

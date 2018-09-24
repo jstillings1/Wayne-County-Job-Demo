@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:white;
+height: auto;
+}
+.opengov{
+width:66%;
+background-color:white;
+padding:15px;
+text-align:center;
+float:left;
+	
+}
+.opengov > #left, .opengov > #center, .opengov >#right {
+display:block;
+background-color:white;
+width:33px;
+height:500px;
+float:left;
+
+color:black;
+
+
+
+}
+.online > h2, .online >  h3, .opengov > h2, .opengov > h3{
+margin-left:30%;
+text-align:left;	
+}
+a:hover {
+	color: #060;
+}
+
+ a{
+color:blue;
+text-align:left;
+
+}
+
+.online{
+	width:66%;
+background-color:white;
+display:block;
+
+
+
+}
+
+		
+.top5 {
+color:red;
+font-size:1.5em;	
+padding: 5px;
+}
+.online > #left, .online > #center, .online > #right {
+
+background-color:white;
+width:33px;
+text-align:center;
+
+
+
+	
+float:left;
+
+
+color:black;
+
+height:350px;
+
+}
+.social {
+background-color:white;	
+width:66%;
+}
+
+.social > #left, .social > #center, .social >#right {
+display:block;
+border:none;
+
+float:left;
+
+
+color:black;
+
+height:550px;
+}
+
+
+
+
+@media (min-width: 310px) {
+	 .opengov > #left, .opengov > #center, .opengov >#right, .online > #left, .online > #center, .online >#right, .social > #left, .social > #center, .social >#right{
+	width:100%;
+	height:250px;;
+	}
+	.social > #left {
+
+
+height:550px;
+}
+
+.online  {
+width:100%;
+}
+.opengov  {
+width:100%;
+}
+.tick-wrap  {
+width:100%;
+padding:5px;
+}
+a{
+text-align:center;
+padding-right:30px;
+}
+
+	
+}
+@media (min-width: 760px) {
+	 .opengov > #left, .opengov > #center, .opengov >#right, .online > #left, .online > #center, .online >#right, .social > #left, .social > #center, .social >#right {
+	width:33%;
+	height:auto;
+
+	}
+	
+	.social > #left {
+
+
+height:550px;
+}
+.online  {
+width:66%;
+
+}
+.opengov  {
+width:66%;
+
+}
+.tick-wrap  {
+width:33%;
+padding:5px;
+}
+a{
+text-align:center;
+padding-right:0px;
+
+
+}
+
+}
+@media (min-width: 960px) {
+	.opengov > #left, .opengov > #center, .opengov >#right, .online > #left, .online > #center, .online >#right, .social > #left, .social > #center, .social >#right {
+	
+	width:33%;
+	padding:4px;
+	height:450px;
+	
+	}
+	.social > #left {
+
+
+height:550px;
+}
+
+}
+
+
+

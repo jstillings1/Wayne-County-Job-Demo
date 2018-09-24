@@ -1,0 +1,164 @@
+
+/* CSS TICKER - ALLWEBCO DESIGN CORPORATION */
+
+/* THERE ARE NO RESTRICTIONS FOR USE ON ANY WEBSITE PROJECT */
+.tick-wrap{
+width:33%;
+float:right;	
+}
+#twitter{
+width:33%;
+float:right;	
+}
+#tickr-box 
+	{
+	background: white;
+	max-width: 100%;
+	padding: 3px;
+	margin: 0px auto 0px auto;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height:400px;
+	}
+
+.tickr-title 
+	{
+	color: black;
+	font: bold 18px arial, sans-serif;
+	background: white; 
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	}
+
+#tickr-scroll ul
+	{
+	margin:0px;
+	padding: 0px;
+	
+	vertical-align: baseline;
+	list-style: none;
+	
+	
+	}
+
+#tickr-scroll 
+	{
+	background: white;
+	height: 325px;
+	margin: 3px auto 0px auto;
+	overflow: hidden;
+	padding: 0px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#tickr-scroll li 
+		{
+		color: black;
+		font: normal 16px arial, sans-serif;
+		line-height: 24px;
+		
+		
+		
+		
+		}
+#tickr-scroll hr {
+margin-right:20%;	
+
+}
+
+#tickr-scroll a 
+	{
+	color: blue;
+	text-decoration: none;
+	}
+
+#tickr-scroll a:hover 
+	{
+	color: ;
+	text-decoration: none;
+	}
+
+#tickr-scroll ul
+	{
+	padding: 0px 6px 0px 6px;
+	-webkit-animation: tickr 12s cubic-bezier(1, 0, .5, 0) infinite;
+	-moz-animation: tickr 12s cubic-bezier(1, 0, .5, 0) infinite;
+	-ms-animation: tickr 12s cubic-bezier(1, 0, .5, 0) infinite;
+	animation: tickr 12s cubic-bezier(1, 0, .5, 0) infinite;
+	}
+
+#tickr-scroll ul:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;
+	}
+
+@-webkit-keyframes tickr {
+	0%   { margin-top: 0; }
+	25%  { margin-top: -26px; }
+	50%  { margin-top: -52px; }
+	75%  { margin-top: -78px; }
+	100% { margin-top: 0; }
+	}
+@-moz-keyframes tickr {
+	0%   { margin-top: 0; }
+	25%  { margin-top: -26px; }
+	50%  { margin-top: -52px; }
+	75%  { margin-top: -78px; }
+	100% { margin-top: 0; }
+	}
+@-ms-keyframes tickr {
+	0%   { margin-top: 0; }
+	25%  { margin-top: -26px; }
+	50%  { margin-top: -52px; }
+	75%  { margin-top: -78px; }
+	100% { margin-top: 0; }
+	}
+@keyframes tickr {
+	0%   { margin-top: 0; }
+	25%  { margin-top: -26px; }
+	50%  { margin-top: -52px; }
+	75%  { margin-top: -78px; }
+	100% { margin-top: 0; }
+	}
+
+
+
+
+/***************
+START MEDIA QUERIES FOR SMARTPHONE FONT SIZES
+***************/
+
+@media handheld and (max-width: 482px),
+   screen and (max-device-width: 482px),
+   screen and (max-width: 482px) 
+	{
+
+
+.tickr-title	 { font-size: 14px; }
+
+#tickr-scroll li { font-size: 12px; }
+
+.tick-wrap{
+width:100%;
+	
+}
+#twitter{
+width:100%;
+
+height:600px;	
+}
+	}
+/***************
+END MEDIA QUERIES
+***************/
+
+
+

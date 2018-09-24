@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:white;
+}
+.content{
+width:100%;
+background-color:white;
+	
+}
+#left, #center, #right {
+display:block;
+
+padding: 15px;
+margin: 15px;
+width:30%;	
+float:left;
+background:white;
+color:black;
+
+height:auto;
+
+}
+#left {
+background:url(../images/commissioners.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:320px; 
+}
+
+a:hover {
+	color: #060;
+}
+
+ a{
+color:blue;
+text-align:center;
+
+}
+.content > h1{
+text-align:center;
+
+
+}
+.online{
+	
+
+}
+
+		
+.top5 {
+color:red;
+font-size:2em;	
+padding: 5px;
+}
+.online > #left, .online > #center, .online >#right {
+display:block;
+border:none;
+padding: 30px;
+margin: 15px;
+width:30%;	
+float:left;
+background-color:#CCCCCC;
+
+color:black;
+
+height:300px;
+
+}
+.social > #left, .social > #center, .social >#right {
+display:block;
+border:none;
+padding: 30px;
+margin: 15px;
+width:30%;	
+float:left;
+background-color:#3CF;
+
+color:black;
+
+height:200px;
+}
+
+
+.stat{
+padding:50px;
+position: realtive;
+background-color:#333;
+color:white;
+}
+
+@media (min-width: 310px) {
+	#left, #center, #right, .online > #left, .online > #center, .online >#right, .social > #left, .social > #center, .social >#right{
+	width:100%;
+	}
+	.social > #left {
+
+
+height:550px;
+}
+#left {
+background:url(../images/commissioners2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:200px; 
+}
+	
+}
+@media (min-width: 760px) {
+	#left, #center, #right, .online > #left, .online > #center, .online >#right, .social > #left, .social > #center, .social >#right {
+	width:100%;
+	}
+	
+	.social > #left {
+
+
+height:550px;
+}
+#left {
+background:url(../images/commissioners.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:550px; 
+}
+}
+@media (min-width: 960px) {
+	#left, #center, #right, .online > #left, .online > #center, .online >#right, .social > #left, .social > #center, .social >#right {
+	width:30%;
+	}
+	.social > #left {
+
+
+height:200px;
+}
+#left {
+background:url(../images/commissioners.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:300px; 
+}
+}
+
+
+
